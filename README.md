@@ -60,7 +60,6 @@ Mas detalle en los diagramas: `diagramas/arquitectura.svg` y
 cliente-mensajeria/
 ├── Makefile
 ├── README.md
-├── diagramas/
 └── src/
     ├── main.c            -> arranca MPI y decide el rol de cada proceso
     ├── protocolo.h        -> struct Mensaje y tags
