@@ -51,9 +51,6 @@ El rank 0 siempre es el coordinador; los demas ranks son clientes. `N` en
   dedicado solo a recibir mensajes con `MPI_Recv`, asi la interfaz nunca se
   congela esperando un mensaje.
 
-Mas detalle en los diagramas: `diagramas/arquitectura.svg` y
-`diagramas/protocolo_mensaje.svg`.
-
 ## Estructura
 
 ```
@@ -68,3 +65,7 @@ cliente-mensajeria/
     ├── cliente_cli.c/.h   -> interfaz de linea de comandos
     └── cliente_gui.c/.h   -> interfaz grafica (GTK 3)
 ```
+## Referencia
+
+```
+Claude.ai Se hizo uso de la inteligencia artificial con el fin de poder avanzar 
